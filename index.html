@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DWB Tecnologia</title>
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+        background-color: #0a0a0a;
+        color: #e0e0e0;
+    }
+    header {
+        background: linear-gradient(90deg, #0ff 0%, #f0f 100%);
+        color: #000;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 0 15px #0ff;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 0 0 5px #0ff, 0 0 10px #f0f;
+    }
+    header p {
+        font-size: 1.1rem;
+        color: #222;
+    }
+    section {
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+    h2 {
+        text-align: center;
+        color: #0ff;
+        text-shadow: 0 0 5px #0ff;
+        margin-bottom: 30px;
+    }
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    .card {
+        background-color: #111;
+        border: 1px solid #0ff;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 0 10px #0ff, 0 0 20px #f0f;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 15px #0ff, 0 0 30px #f0f;
+    }
+    .card h3 {
+        color: #f0f;
+        margin-top: 0;
+    }
+    .card p {
+        font-size: 0.95rem;
+        color: #ccc;
+    }
+    .btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #0ff;
+        color: #000;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 20px;
+        box-shadow: 0 0 5px #0ff, 0 0 10px #f0f;
+        transition: background 0.3s ease, color 0.3s ease;
+    }
+    .btn:hover {
+        background-color: #f0f;
+        color: #fff;
+    }
+    footer {
+        background-color: #111;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #888;
+        border-top: 1px solid #0ff;
+        box-shadow: 0 -2px 15px #0ff;
+    }
+    @media (max-width: 768px) {
+        .services {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>DWB Tecnologia</h1>
+    <p>Redes • Segurança Cibernética • Automação</p>
+</header>
+
+<section>
+    <h2>Serviços</h2>
+    <div class="services">
+        <div class="card">
+            <h3>🌐 Projetos de Redes</h3>
+            <p>Planejamento e organização de redes de computadores de alta performance.</p>
+        </div>
+        <div class="card">
+            <h3>🛡️ Firewalls & Roteamento</h3>
+            <p>Implementação de firewalls, switching avançado e roteamento seguro.</p>
+        </div>
+        <div class="card">
+            <h3>🔍 Controle de Acesso</h3>
+            <p>Gestão de conteúdo e permissões para máxima proteção da sua rede.</p>
+        </div>
+        <div class="card">
+            <h3>🔗 VPNs</h3>
+            <p>Configuração de VPNs client-to-site e site-to-site para conexões seguras.</p>
+        </div>
+        <div class="card">
+            <h3>☁️ Serviços Cloud</h3>
+            <p>Hospedagem, backups e soluções em nuvem para empresas.</p>
+        </div>
+        <div class="card">
+            <h3>🔒 Segurança da Informação</h3>
+            <p>Proteção contra ameaças e compliance com normas internacionais.</p>
+        </div>
+        <div class="card">
+            <h3>🛡️ Segurança Cibernética</h3>
+            <p>Defesa contra ataques e mitigação de riscos digitais.</p>
+        </div>
+        <div class="card">
+            <h3>📈 Monitoramento</h3>
+            <p>Monitoramento de eventos e respostas automáticas a incidentes.</p>
+        </div>
+        <div class="card">
+            <h3>🛠️ Correção de Vulnerabilidades</h3>
+            <p>Análise e aplicação de correções para manter seus sistemas seguros.</p>
+        </div>
+    </div>
+</section>
+
+<section style="text-align:center;">
+    <h2>Entre em Contato</h2>
+    <p>Proteja e otimize a infraestrutura da sua empresa agora mesmo.</p>
+    <a href="mailto:contato@dwbtecnologia.com" class="btn">Falar com Especialista</a>
+</section>
+
+<footer>
+    &copy; 2025 DWB Tecnologia — Segurança e Inovação em Redes.
+</footer>
+
+</body>
+</html>
